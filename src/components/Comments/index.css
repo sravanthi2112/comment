@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.background-sec {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  justify-content: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-sec {
+  width: 90%;
+}
+
+h1 {
+  color: #1e293b;
+}
+
+.description {
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+}
+.comments-image {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .comments-image {
+    order: 1;
+    width: 40%;
+    margin-right: 5%;
+  }
+  .input-section {
+    flex-direction: row;
+  }
+  .input-comment-sec {
+    width: 40%;
+  }
+  .description {
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  input {
+    width: 70%;
+    border: black 1px solid;
+  }
+  textarea {
+    width: 70%;
+    border: black 1px solid;
+  }
+}
+
+.addComment {
+  background-color: #0284c7;
+  color: white;
+  padding: 8px;
+  width: 120px;
+  border-radius: 4px;
+  border: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.count {
+  background-color: #0b69ff;
+  border-radius: 2px;
+  text-align: center;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+}
+
+ul {
+  padding: 0px;
+}
